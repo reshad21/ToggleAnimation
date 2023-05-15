@@ -25,7 +25,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.2 }}
+                  transition={{ duration: 0.8 }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
@@ -34,7 +34,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.4 }}
+                  transition={{ duration: 0.7 }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=74268&format=png" alt="" />
@@ -52,6 +52,61 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.5 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.4 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.3 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=eHKMKjewguCH&format=png" alt="" />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.2 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
+                </motion.div>
+
+                {/* second row */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 1 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.9 }}
+
+                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
+                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
+                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
                   transition={{ duration: 0.8 }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
@@ -61,16 +116,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1.2 }}
+                  transition={{ duration: 0.7 }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=eHKMKjewguCH&format=png" alt="" />
@@ -79,52 +125,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1.4 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1.6 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1.8 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 2 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 2.2 }}
-
-                  className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
-                  <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=eHKMKjewguCH&format=png" alt="" />
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
-                  animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 2.4 }}
+                  transition={{ duration: 0.6 }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
