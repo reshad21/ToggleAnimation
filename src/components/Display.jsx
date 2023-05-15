@@ -33,7 +33,8 @@ const Display = () => {
             <div className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  ${showComponent ? 'itemShow' : 'itemHide'} `}>
               <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
             </div>
-            <div className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  ${showComponent ? 'itemShow' : 'itemHide'} `}>
+
+            <div className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  ${showComponent ? 'sevenItemShow' : 'sevenItemHide'} `}>
               <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
             </div>
             <div className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  ${showComponent ? 'itemShow' : 'itemHide'} `}>
