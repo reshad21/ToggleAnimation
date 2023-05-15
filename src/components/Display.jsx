@@ -15,7 +15,8 @@ const Display = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
           animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.1, ease: "easeInOut" }}
+
 
           className={`w-[80%] h-[80%]  mx-auto cs-glass`}>
           <div className={`grid grid-cols-7 gap-y-5 p-4 content-center `}>
@@ -25,7 +26,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.8 }}
+                  transition={{ duration: 0.8, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
@@ -34,7 +35,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.7 }}
+                  transition={{ duration: 0.7, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=74268&format=png" alt="" />
@@ -43,7 +44,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.6 }}
+                  transition={{ duration: 0.6, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
@@ -52,7 +53,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.5, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
@@ -61,7 +62,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.4 }}
+                  transition={{ duration: 0.4, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
@@ -70,7 +71,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.3 }}
+                  transition={{ duration: 0.3, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=eHKMKjewguCH&format=png" alt="" />
@@ -79,7 +80,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.2 }}
+                  transition={{ duration: 0.2, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
@@ -89,7 +90,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 1 }}
+                  transition={{ duration: 1, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto  `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=103424&format=png" alt="" />
@@ -98,7 +99,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.9 }}
+                  transition={{ duration: 0.9, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
@@ -107,7 +108,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.8 }}
+                  transition={{ duration: 0.8, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=104996&format=png" alt="" />
@@ -116,7 +117,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.7 }}
+                  transition={{ duration: 0.7, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=eHKMKjewguCH&format=png" alt="" />
@@ -125,7 +126,7 @@ const Display = () => {
                 <motion.div
                   initial={{ opacity: 0, scale: 0, x: '-100vw', y: '100vw' }}
                   animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                  transition={{ duration: 0.6 }}
+                  transition={{ duration: 0.6, ease: 'easeInOut' }}
 
                   className={`p-4 w-28 h-28 rounded-md bg-[#FFFAEF] mx-auto `}>
                   <img className='hover:scale-110 duration-300 cursor-pointer' src="https://img.icons8.com/?size=512&id=101670&format=png" alt="" />
